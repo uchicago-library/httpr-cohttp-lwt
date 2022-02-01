@@ -1,0 +1,13 @@
+# -*- mode: org; coding: utf-8 -*-
+#+TITLE: TODO List for httpr-ocurl
+#+AUTHOR: Keith Waclena
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil tags:nil email:off ^:{}
+#+LaTeX_CLASS: tuftehandout
+# org-bootstrap
+#+INCLUDE: "~/.carcass/doc/ob-html-head.org"
+* IDEAS
+* REFACTORING
+* BUGS
+* FEATURES
+* OPTIMIZATION

@@ -1,0 +1,2 @@
+(** @canonical Httpr_cohttp_lwt.V *)
+module V = Httpr_cohttp_lwt__V

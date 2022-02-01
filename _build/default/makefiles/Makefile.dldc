@@ -1,0 +1,12 @@
+# httpr-ocurl				-*- makefile -*-
+# Makefile.dldc
+# Keith Waclena <https://www.lib.uchicago.edu/keith/>
+
+# "cross-compilation"
+.PHONY: freebsd
+freebsd: clean
+	ssh $(FREEBSDHOST) gmake -C `pwd | sed "s;$$HOME;~;"` all STATIC=1 BINDIR=/usr/app/bin FORMAT=native
+
+# HELP
+#
+# make freebsd : ssh $(FREEBSDHOST) gmake -C $PWD all STATIC=1 BINDIR=/usr/app/bin FORMAT=native
